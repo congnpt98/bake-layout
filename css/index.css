@@ -1,0 +1,28 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+/* HEADER  */
+/* CAROUSEL  */
+/* INTRO  */
+/* NUMBER  */
+/* SERVICES  */
+/* GALLERY  */
+/* TEAM  */
+/* FEEDBACK  */
+/* CONTACT  */
+/* FOOTER  */
