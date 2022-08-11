@@ -34,6 +34,14 @@ button:hover {
   border-color: #ff0e83;
 }
 
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 /* HEADER  */
 header {
   background-color: #4e2a84;
@@ -193,6 +201,60 @@ header {
 }
 
 /* SERVICES  */
+.services {
+  background-image: url(../image/s1.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.services h2 {
+  color: white;
+  padding: 70px 0;
+}
+
+.services__content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.services__item {
+  padding: 0 20px;
+}
+
+.services__item i {
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  border: 1px solid #4e2a84;
+  border-radius: 50%;
+  background-color: white;
+  color: #4e2a84;
+  font-size: 3.75rem;
+  transition: all .5s;
+}
+
+.services__item h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 17px 0;
+}
+
+.services__item p {
+  font-size: 0.875rem;
+  line-height: 25px;
+  margin-bottom: 12px;
+}
+
+.services__item button {
+  padding: 12px 27px;
+  border-width: 2px;
+}
+
+.services__item:hover i {
+  color: #ff0e83;
+}
+
 /* GALLERY  */
 /* TEAM  */
 /* FEEDBACK  */
