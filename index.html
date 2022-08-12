@@ -16,6 +16,7 @@
     />
 
     <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Bake</title>
   </head>
@@ -57,7 +58,7 @@
         </div>
       </div>
       <div class="intro__item intro__ab1">
-        <img src="./image/ab1.jpg" alt="intro 1" />
+        <img src="./images/ab1.jpg" alt="intro 1" />
       </div>
       <div class="intro__item">
         <div>
@@ -78,7 +79,7 @@
         </div>
       </div>
       <div class="intro__item">
-        <img src="./image/ab2.jpg" alt="intro 2" />
+        <img src="./images/ab2.jpg" alt="intro 2" />
       </div>
       <div class="intro__item intro__text">
         <div>
@@ -90,7 +91,7 @@
         </div>
       </div>
       <div class="intro__item">
-        <img src="./image/ab3.jpg" alt="intro 3" />
+        <img src="./images/ab3.jpg" alt="intro 3" />
       </div>
       <div class="intro__item intro__text">
         <div>
@@ -102,7 +103,7 @@
         </div>
       </div>
       <div class="intro__item intro__ab4">
-        <img src="./image/ab4.jpg" alt="intro 4" />
+        <img src="./images/ab4.jpg" alt="intro 4" />
       </div>
     </section>
     <!-- NUMBER -->
@@ -157,7 +158,65 @@
       </div>
     </section>
     <!-- GALLERY -->
-    <section class="gallery"></section>
+    <section class="gallery">
+      <h2>OUR GALLERY</h2>
+      <div class="gallery__content">
+        <figure class="gallery__item">
+          <a href="./images/g1.jpg" data-lightbox="gallery">
+            <img src="./images/g1.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="gallery__item">
+          <a href="./images/g2.jpg" data-lightbox="gallery">
+            <img src="./images/g2.jpg" alt="gallery 2" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="gallery__item">
+          <a href="./images/g3.jpg" data-lightbox="gallery">
+            <img src="./images/g3.jpg" alt="gallery 3" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="gallery__item">
+          <a href="./images/g4.jpg" data-lightbox="gallery">
+            <img src="./images/g4.jpg" alt="gallery 4" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="gallery__item">
+          <a href="./images/g5.jpg" data-lightbox="gallery">
+            <img src="./images/g5.jpg" alt="gallery 5" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="gallery__item">
+          <a href="./images/g6.jpg" data-lightbox="gallery">
+            <img src="./images/g6.jpg" alt="gallery 6" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
+        </figure>
+      </div>
+    </section>
     <!-- TEAM -->
     <section class="team"></section>
     <!-- FEEDBACK -->
@@ -181,5 +240,8 @@
     <script>
       $(".counter").countUp();
     </script>
+
+    <!-- Lightbox JS -->
+    <script src="./js/lightbox.min.js"></script>
   </body>
 </html>
