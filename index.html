@@ -15,8 +15,14 @@
       rel="stylesheet"
     />
 
-    <!-- MAIN CSS -->
+    <!-- LIGHTBOX CSS -->
     <link rel="stylesheet" href="./css/lightbox.min.css" />
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css" />
     <title>Bake</title>
   </head>
@@ -344,7 +350,40 @@
       </div>
     </section>
     <!-- FEEDBACK -->
-    <section class="feedback"></section>
+    <section class="feedback">
+      <h2>TESTIMONALS</h2>
+      <div class="feedback__content">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Libero vero repudiandae eos, iure
+              dicta culpa! Delectus architecto minima et deserunt.
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="feedback__name">MARK</p>
+          </div>
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Libero vero repudiandae eos, iure
+              dicta culpa! Delectus architecto minima et deserunt.
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="feedback__name">ALLY</p>
+          </div>
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Libero vero repudiandae eos, iure
+              dicta culpa! Delectus architecto minima et deserunt.
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="feedback__name">WILLSON</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- CONTACT -->
     <section class="contact"></section>
     <!-- FOOTER -->
@@ -358,14 +397,26 @@
     ></script>
     <!-- JQUERY WAYPOINTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-
     <!-- CountUp JS -->
     <script src="./js/jquery.countup.js"></script>
     <script>
       $(".counter").countUp();
     </script>
-
     <!-- Lightbox JS -->
     <script src="./js/lightbox.min.js"></script>
+    <!-- Owl Carousle JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        nav: false,
+        autoplay:true,
+        responsive: {
+          0: {
+            items: 1,
+          }
+        },
+      });
+    </script>
   </body>
 </html>

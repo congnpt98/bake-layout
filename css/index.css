@@ -394,7 +394,7 @@ header {
   width: 100%;
   padding: 30px;
   opacity: 1;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .team__details {
@@ -407,14 +407,14 @@ header {
   color: white;
   padding: 100px 40px;
   opacity: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .team__details h3 {
   color: #ff0e83;
 }
 
-.team__details p:first-of-type{
+.team__details p:first-of-type {
   margin: 8px 0;
 }
 
@@ -446,5 +446,40 @@ header {
 }
 
 /* FEEDBACK  */
+.feedback {
+  background-image: url(../images/cc1.jpg);
+  background-size: cover;
+  padding: 70px 0;
+}
+
+.feedback__content {
+  width: 75%;
+  margin: 0 auto;
+  border: 3px solid #ff0e83;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.feedback__content i {
+  color: #2cbeff;
+  font-size: 1.3rem;
+  padding: 0 18px;
+}
+.feedback__content p {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.feedback__content .feedback__name {
+  color: white;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot span {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.feedback__content .owl-theme .owl-dots .owl-dot.active span {
+  background-color: black;
+}
 /* CONTACT  */
 /* FOOTER  */
